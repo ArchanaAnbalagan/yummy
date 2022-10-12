@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@600&family=Lobster&family=Merienda&family=Zilla+Slab:ital,wght@0,500;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.icon-bar{
+    background-color: darkorange;
+    margin-top: 30px;
+}
+.bname{
+    font-family: 'Arima', cursive;
+    color: black;
+}
+.navbar-right{
+    color:darkorange;
+    padding-top: 20px;
+    font-size: large;
+    font-family: 'Arima', cursive;
+    
+}
+.btn{
+    margin-top: 10px;
+    text-align: center;
+    padding: 5px;
+    padding-right: 5px;
+    
+    background-color: darkorange;
+    color: white;
+    height: 30px;
+    width:90px;
+    border-radius: 30px;
+}
+.home{
+    background-color:darkorange;
+    height:550px;
+    width:100%;
+}
+.home h1{
+    font-family: 'Arima', cursive;
+    font-size: 50px;
+    text-align: justify;
+    align-items: center;
+    color: white;
+    padding: 10px;
+    padding-top: 100px;
+}
+.home h1:hover{
+    color: black;
+}
+.home p{
+    font-family: 'Arima', cursive;
+    font-size: 30px;
+    text-align: justify;
+    align-items: center;
+    color: white;
+    padding: 10px;
+   
+}
+.home p:hover{
+    color: black;
+}
+.home img{
+    height:70%;
+    width:70%;
+    margin-top: 40px;
+    margin-left:70px;
+    transform: rotate(0deg);
+
+}
+.home img:hover{
+    transform: rotate(20deg);
+}
+.home .btn1{
+    background-color: white;
+    color: darkorange;
+    border-radius: 30px;
+    border: 1px solid darkorange;
+    padding: 10px;
+    margin-left: 100px;
+    font-size: large;
+    font-family: 'Arima', cursive;
+}
+.home .btn1:hover{
+    color:black;
+}
+.about{
+    height:600px;
+    width:100%;
+}
+.about h5{
+    text-align: center;
+    font-family: 'Arima', cursive;
+    font-size: larger;
+    color: black;
+    padding-top: 20px;
+}
+.about h1{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Arima', cursive;
+}
+.about img{
+    height: 400px;
+    width:100%;
+    position: relative;
+}
+.about .box{
+    height:100px;
+    width:400px;
+    position: absolute;
+    background-color: white;
+    top:250px;
+    left:100px;
+    border-radius: 20px;
+}
+.box p{
+    font-family: 'Arima', cursive; 
+    color: darkorange;
+    font-size: x-large;
+    text-align: center;
+    padding-top: 5px;
+}
+.about h2{
+    font-family: 'Arima', cursive;
+    font-size:20px; 
+    line-height: 1.5;
+}
+.menu{
+    height: 500px;
+    width:100%;
+   
+}
+.menu img{
+    margin-top: 20px;
+    height:200px;
+    width:200px;
+}
+.menu h5{
+    text-align: center;
+    font-family: 'Arima', cursive;
+    font-size: larger;
+    color: black;
+    padding-top: 20px;
+}
+.menu h1{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Arima', cursive;
+}
+.menu p{
+    padding-left: 40px;
+    padding-top: 10px;
+    font-family: 'Arima', cursive;
+    font-size: larger;
+    color: black;
+}
+
+.contact{
+    background-color: black;
+    margin-top: 200px;
+    font-family: 'Arima', cursive; 
+}
+.contact h1{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Arima', cursive;
+    color:white;
+}
+.contact p{
+    padding-left: 40px;
+    padding-top: 10px;
+    font-family: 'Arima', cursive;
+    font-size: larger;
+    color: white;
+}
+.contact h5{
+    text-align: center;
+    font-family: 'Arima', cursive;
+    font-size: larger;
+    color: white;
+    padding-top: 20px;
+}
+.contact .row .col-md-4{
+    height:200px;
+    width:300px;
+  
+    margin-left:50px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    
+}
+.contact .row .col-md-4 P{
+    margin-left: 60px;
+}
+.contact .row .col-md-4 .box{
+    margin-left:100px ;
+    margin-top: 40px;
+    border: 1px solid darkorange;
+    border-radius: 50px;
+    background-color:darkorange;
+    height:60px ;
+    width:60px;
+    padding: 20px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+@media screen and (max-width:530px){
+    .about .box{
+        height:100px;
+        width:200px;
+        font-size:medium;
+        left:20px;
+
+        
+    }
+   }
+
+@media screen and (max-width:1000px){
+ .navbar-right{
+    font-size: medium;
+ }
+ .home h1{
+    font-size: 40px;
+    padding-top: 30px;
+}
+.home p{
+    font-size: 20px;
+}
+.home .btn1{
+    padding-left:50px;
+    padding: 10px;
+}
+.home img{
+    padding-left: 10px;
+    height:50%;
+    width:50%;
+}
+.home{
+    height: 700px;
+}
+
+}
+@media screen and (max-width:990px){
+    .menu{
+        padding-top: 350px;
+    }
+    .contact{
+        margin-top: 1500px;
+    }
+}
+@media screen and (max-width:614px){
+    .home h1{
+        font-size: 30px;
+        padding-top: 20px;
+    }
+    .home p{
+        font-size: 10px;
+    }
+    .home .btn1{
+        padding-left:0px;
+        padding: 5px;
+    }
+    .home img{
+        padding-left: 10px;
+        height: 50%;
+        width:50%;
+        margin-bottom: 10px;
+    }
+    .home{
+        height: 550px;
+    }
+   }
+   
+@media screen and (max-width:510px){
+    .menu{
+        padding-top:900px;
+    }
+}
+
+@media screen and (max-width:570px){
+    .menu{
+        padding-top:400px;
+    }
+    .contact{
+        margin-top: 1700px;
+    }
+}
+@media screen and (max-width:490px){
+    .menu {
+        padding-top:600px;
+    }
+    .contact{
+        margin-top: 1750px;
+    }
+}
+@media screen and (max-width:380px){
+    .menu{
+        padding-top:700px;
+    }
+    .contact{
+        margin-top: 1800px;
+    }
+}
+@media screen and (max-width:335px){
+    .menu{
+        padding-top:390px;
+    }
+}
